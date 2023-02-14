@@ -61,7 +61,7 @@ html {
   color: #f65d14;
   font-family: 'Lato', sans-serif;
   font-style: normal;
-  font-weight: 2000;
+  font-weight: 1000;
   font-size: 3rem;
   letter-spacing: 0.07rem;
   margin-bottom: 3rem;
@@ -501,7 +501,7 @@ html {
     color: #f65d14;
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 2500;
+    font-weight: 1900;
     font-size: 5rem;
     letter-spacing: 0.07rem;
     margin-bottom: 3rem;
@@ -611,7 +611,7 @@ html {
     gap: 1rem;
   }
 
-.footer-project {
+  .footer-project {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -619,8 +619,8 @@ html {
     margin-top: 3rem;
     width: 100%;
     margin-bottom: 3rem;
-    }
-    
+  }
+
   .footer-container-desktop {
     display: flex;
     flex-direction: row;
@@ -629,12 +629,12 @@ html {
     text-align: center;
     width: 80%;
   }
-    
+
   .footer-logo {
     width: 10rem;
     height: 8rem;
   }
-    
+
   .license {
     height: 3rem;
     font-size: 1.3rem;
@@ -659,9 +659,9 @@ html {
     width: 3.5%;
   }
 
- .concert-paragraph-about {
+   .concert-paragraph-about {
     font-size: 1.3rem;
-    text-justify: center;
+    text-justify: auto;
   }
 
   .email-about {
@@ -698,7 +698,7 @@ html {
     width: 100%;
     margin-bottom: 3rem;
   }
-    
+
   .footer-container {
     display: flex;
     flex-direction: row;
@@ -707,17 +707,17 @@ html {
     text-align: center;
     width: 80%;
   }
-    
+
   .footer-logo-about {
     width: 10rem;
     height: 8rem;
   }
-    
+
   .license-about {
     height: 5rem;
     font-size: 1.5rem;
     width: 32rem;
     color: #fff;
     padding-top: 1.2rem;
-}
+  }
 }
