@@ -501,7 +501,7 @@ html {
     color: #f65d14;
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 1900;
+    font-weight: 1000;
     font-size: 5rem;
     letter-spacing: 0.07rem;
     margin-bottom: 3rem;
@@ -659,7 +659,7 @@ html {
     width: 3.5%;
   }
 
-   .concert-paragraph-about {
+  .concert-paragraph-about {
     font-size: 1.3rem;
     text-justify: auto;
   }
