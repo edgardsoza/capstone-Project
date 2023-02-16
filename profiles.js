@@ -16,9 +16,9 @@ const profiles = [
   },
 
   {
-    id : 'artist3',
-    nodalimage : 'images/grupofirme.jpg',
-    title : 'Grupo Firme',
+    id: 'artist3',
+    nodalimage: 'images/grupofirme.jpg',
+    title: 'Grupo Firme',
     type: 'Mexican Artist',
     description: 'Grupo Firme is a Regional Mexican band based in Tijuana, Baja California, founded in 2014.',
   },
