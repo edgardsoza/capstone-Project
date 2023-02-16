@@ -47,6 +47,10 @@ html {
   margin-bottom: 4rem;
 }
 
+.logo {
+  display: flex;
+}
+
 .hello-concert,
 .hello-concert-about {
   color: #f65d14;
@@ -59,7 +63,7 @@ html {
 .concert-title,
 .concert-title-about {
   color: #f65d14;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Cocogoose', sans-serif;
   font-style: normal;
   font-weight: 1000;
   font-size: 3rem;
@@ -78,6 +82,7 @@ html {
   font-size: 1.2rem;
   padding-left: 2rem;
   padding-right: 2rem;
+  line-height: 2.5rem;
   border: 2px solid #fff;
   margin-bottom: 2rem;
   padding-bottom: 1rem;
@@ -89,8 +94,16 @@ html {
   list-style: none;
   height: 100vh;
   font-size: 3rem;
+  padding-top: 7%;
   text-decoration: none;
   gap: 1rem;
+}
+
+.mobile-nav-options li {
+  font-size: 3rem;
+  width: fit-content;
+  text-decoration: none;
+  margin-bottom: 2rem;
 }
 
 .link-menu,
@@ -168,6 +181,8 @@ html {
   background-color: rgba(256, 256, 256, 0.3);
   justify-items: center;
   margin-bottom: 1.5rem;
+  align-items: center;
+  padding-right: 0.5rem;
   gap: 1rem;
 }
 
@@ -417,7 +432,6 @@ html {
   align-items: center;
   margin-top: 3rem;
   width: 100%;
-  margin-bottom: 3rem;
 }
 
 .footer-container {
@@ -543,7 +557,7 @@ html {
   .concert-title,
   .concert-title-about {
     color: #f65d14;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Cocogoose', sans-serif;
     font-style: normal;
     font-weight: 1000;
     font-size: 5rem;
@@ -597,6 +611,7 @@ html {
     align-items: center;
     color: #fff;
     margin-bottom: 6rem;
+    cursor: pointer;
   }
 
   .title-main-container {
@@ -737,10 +752,8 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
     height: 20rem;
     width: 100%;
-    margin-bottom: 3rem;
   }
 
   .footer-container {
