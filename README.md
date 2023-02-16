@@ -147,7 +147,7 @@ This web page has been created using a Cindy Shin design.
   - It took like 15 hours, usually the beginning of the project is the hardest. 
 
 - What is the project about?
-  - See my project information here: LOOM LINK ONCE FINISHED
+  - See my project information here: https://www.loom.com/share/374cd11aa5e94c42bc8fd69f2d559e30.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
