@@ -1,16 +1,16 @@
 const profiles = [
   {
-    id : 'artist1',
-    nodalimage : 'images/nodal.jpg',
-    title : 'Christian Nodal',
+    id: 'artist1',
+    nodalimage: 'images/nodal.jpg',
+    title: 'Christian Nodal',
     type: 'Mexican Artist',
     description: 'Christian Nodal is a singer, songwriter, and multi-instrumentalist from Mexico.',
   },
 
   {
-    id : 'artist2',
-    nodalimage : 'images/geramx.jpg',
-    title : 'Gera MX',
+    id: 'artist2',
+    nodalimage: 'images/geramx.jpg',
+    title: 'Gera MX',
     type: 'Mexican Artist',
     description: 'Gera Mx is an artist born in Monterrey, and is the most listened rap singer on Spotify Mexico.',
   },
@@ -24,31 +24,29 @@ const profiles = [
   },
 
   {
-    id : 'artist4',
-    nodalimage : 'images/bandams.jpg',
-    title : 'Banda MS',
+    id: 'artist4',
+    nodalimage: 'images/bandams.jpg',
+    title: 'Banda MS',
     type: 'Mexican Artist',
     description: 'Banda Sinaloense MS de Sergio Lizárraga, also known as Banda MS, is a Mexican Banda.',
   },
 
   {
-    id : 'artist5',
-    nodalimage : 'images/santafe.jpg',
-    title : 'Santa Fe Klan',
+    id: 'artist5',
+    nodalimage: 'images/santafe.jpg',
+    title: 'Santa Fe Klan',
     type: 'Mexican Artist',
     description: 'Angel Jair Quezada Jasso (November 29, 1999), better known artistically as Santa Fe Klan.',
   },
 
   {
-    id : 'artist6',
-    nodalimage : 'images/piso21.jpg',
-    title : 'Piso 21',
+    id: 'artist6',
+    nodalimage: 'images/piso21.jpg',
+    title: 'Piso 21',
     type: 'Mexican Artist',
     description: 'Piso 21 is a Latin pop group. Their singles "Me Llamas", "Besándote" and "Déjala Que Vuelva" are awesome.',
   },
 ];
-
-const speakercontainer = document.querySelector('.speakers-container');
 
 for (let i = 0; i < profiles.length; i += 1) {
   const artist = document.createElement('div');
@@ -81,7 +79,6 @@ for (let i = 0; i < profiles.length; i += 1) {
   artistdescription.classList.add('artistdescription');
   textdiv.append(artistname, artistype, breakline, artistdescription);
   artist.append(imagediv, textdiv);
-  
+
   document.querySelector('.speakers-container').appendChild(artist);
-  console.log(textdiv)
 }
