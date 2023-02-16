@@ -123,6 +123,7 @@ html {
   flex-direction: column;
   align-items: center;
   padding-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .main-program-title {
@@ -201,6 +202,49 @@ html {
 .speakers {
   width: 40%;
   text-align: center;
+}
+
+.speakers-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  width: 90%;
+  margin-bottom: 2rem;
+}
+
+.artist-card {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.artistimage {
+  width: 90%;
+  height: 100%;
+  padding-top: 10%;
+  padding-left: 5%;
+}
+
+.artistname {
+  font-size: 1.5rem;
+}
+
+.artistype {
+  color: #f65d14;
+  font-size: 1.3rem;
+}
+
+.breakspeaker {
+  width: 2rem;
+  display: inline-block;
+  margin-left: 0.01%;
+}
+
+.textdiv {
+  display: flex;
+  width: 170%;
+  flex-direction: column;
 }
 
 .more-button {
@@ -720,4 +764,14 @@ html {
     color: #fff;
     padding-top: 1.2rem;
   }
+
+  .speakers-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: center;
+    gap: 2rem;
+    width: 90%;
+    margin-bottom: 7rem;
+  }
+  
 }
